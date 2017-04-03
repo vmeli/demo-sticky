@@ -1,0 +1,49 @@
+*{
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+}
+
+.center {
+	text-align: center;
+}
+
+.w-100 {
+	max-width: 100%;
+	margin-bottom: 2rem;
+}
+
+.m-auto {
+	display: block;
+	margin: auto;
+}
+
+.org-section_LastPost {
+	height: 6344px;
+	border: 2px dotted teal;
+}
+
+.org-section_Categories {
+	height: 5126px;
+	border: 2px dotted peru;
+}
+
+.org-section_Trends {
+	height: 5996px;
+	border: 2px dotted blue;
+}
+
+h1.fixed {
+	position: fixed;
+	width: 100%;
+	background: red;
+	top: 0;
+	left: 0;
+	margin-top: 0;
+	z-index: 1;
+}
+
+footer {
+	height: 100px;
+	background: rgba(0,0,0,0.8);
+}
